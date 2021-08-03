@@ -1,0 +1,11 @@
+bin/*
+config/*
+db/*
+docs/*
+log/*
+node_modules/*
+public/*
+scripts/*
+storage/*
+tmp/*
+vendor/*

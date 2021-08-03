@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TestingViewComponents</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_packs_with_chunks_tag *(page_packs || []), media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_packs_with_chunks_tag 'es6', *(page_packs || []), 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= render(Navigation::Component.new(current_page: url_for(params.permit(:action, :controller)))) do %>
+      Navigation
+    <% end %>
+
+    <%= yield %>
+  </body>
+</html>

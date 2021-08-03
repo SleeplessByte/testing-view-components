@@ -1,0 +1,26 @@
+{
+  "name": "testing_view_components",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-typescript": "^7.14.5",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "5.4.0",
+    "stimulus": "^2.0.0",
+    "turbolinks": "^5.2.0",
+    "typescript": "^4.3.5",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "@types/turbolinks": "^5.2.0",
+    "@types/webpack-env": "^1.16.2",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "fork-ts-checker-webpack-plugin": "^6.3.1",
+    "prettier": "^2.3.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

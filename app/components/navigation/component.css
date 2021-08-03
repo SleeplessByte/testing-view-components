@@ -1,0 +1,7 @@
+body {
+  background: green;
+
+  & > span {
+    font-weight: bold;
+  }
+}
